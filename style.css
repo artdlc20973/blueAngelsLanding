@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://www.blueangels.navy.mil/assets/img/media/2021/33.jpg')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.4em;
+}
+
+.logo {
+  color: blue;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+span.blue {
+  color: blue;
+  padding-right: .5em;
+}
+
+span.gold {
+  color: gold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.nav li a:hover {
+  color: gold;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 325px auto;
+}
+
+h1 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+p {
+  color: gold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 1.2em;
+  margin-bottom: 1.4em;
+}
+
+button {
+  background: #0000ff5b;
+  color: white;
+  padding: 12px 45px;
+  font-size: 1.2em;
+  transition: all .5s ease;
+  border: none;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+button:hover {
+  background: #ffd90050;
+  transform: translateY(10px);
+  border-radius: 25px;
+}
